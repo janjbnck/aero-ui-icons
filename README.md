@@ -42,7 +42,7 @@ The class names are the file names with an `aero-` prefix, so `slider-indicator-
 
 ## Icons
 
-The previews are scaled up 3×. The size column shows the actual size of each SVG.
+The previews are scaled up 3×, except for the arrows. The size column shows the actual size of each SVG.
 
 ### Window controls
 
@@ -62,6 +62,17 @@ The previews are scaled up 3×. The size column shows the actual size of each SV
 | <img src="icons/button-down.svg" width="21" height="12" alt="Down"> | [`button-down.svg`](icons/button-down.svg) | 7 × 4 |
 | <img src="icons/button-left.svg" width="12" height="21" alt="Left"> | [`button-left.svg`](icons/button-left.svg) | 4 × 7 |
 | <img src="icons/button-right.svg" width="12" height="21" alt="Right"> | [`button-right.svg`](icons/button-right.svg) | 4 × 7 |
+
+### Arrows
+
+| Preview | File | Size |
+| :-: | --- | --- |
+| <img src="icons/arrow-up.svg" width="49" height="51" alt="Arrow up"> | [`arrow-up.svg`](icons/arrow-up.svg) | 49 × 51 |
+| <img src="icons/arrow-down.svg" width="49" height="51" alt="Arrow down"> | [`arrow-down.svg`](icons/arrow-down.svg) | 49 × 51 |
+| <img src="icons/arrow-left.svg" width="51" height="49" alt="Arrow left"> | [`arrow-left.svg`](icons/arrow-left.svg) | 51 × 49 |
+| <img src="icons/arrow-right.svg" width="51" height="49" alt="Arrow right"> | [`arrow-right.svg`](icons/arrow-right.svg) | 51 × 49 |
+
+The arrows are white, so they're meant for dark or colored backgrounds.
 
 ### Dropdown and search
 
