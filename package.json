@@ -14,12 +14,15 @@
     "url": "git+https://github.com/janjbnck/aero-ui-icons.git"
   },
   "type": "module",
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
+    "./icons.css": "./dist/icons.css",
     "./*.svg": "./icons/*.svg"
   },
   "files": [
