@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <radialGradient id="spinner-top" gradientUnits="userSpaceOnUse" cx="16" cy="16" r="16">
+      <stop offset="0.6" stop-color="#85adaf"/>
+      <stop offset="0.76" stop-color="#88b0b0"/>
+      <stop offset="0.88" stop-color="#b5cfd0"/>
+      <stop offset="0.95" stop-color="#d0e5e7"/>
+    </radialGradient>
+    <radialGradient id="spinner-bottom" gradientUnits="userSpaceOnUse" cx="16" cy="16" r="16">
+      <stop offset="0.6" stop-color="#a3cbc9"/>
+      <stop offset="0.7" stop-color="#84b4b3"/>
+      <stop offset="0.82" stop-color="#4a8d8c"/>
+      <stop offset="1" stop-color="#418483"/>
+    </radialGradient>
+    <linearGradient id="spinner-top-fade" gradientUnits="userSpaceOnUse" x1="0" y1="9" x2="0" y2="16.4">
+      <stop offset="0" stop-color="#87afb0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#87afb0" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="spinner-bottom-fade" gradientUnits="userSpaceOnUse" x1="0" y1="14.1" x2="0" y2="21">
+      <stop offset="0" stop-color="#3b7c7b" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#3b7c7b" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="spinner-upper">
+      <polygon points="0 0 32 0 32 14.1 25.67 16.4 6.33 16.4 0 14.1"/>
+    </clipPath>
+    <clipPath id="spinner-lower">
+      <polygon points="0 14.1 6.33 16.4 25.67 16.4 32 14.1 32 32 0 32"/>
+    </clipPath>
+    <clipPath id="spinner-ring">
+      <path d="M16 0a16 16 0 1 1 0 32 16 16 0 1 1 0-32ZM16 6.33a9.67 9.67 0 1 0 0 19.34 9.67 9.67 0 1 0 0-19.34Z" clip-rule="evenodd"/>
+    </clipPath>
+    <filter id="spinner-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="spinner-glint" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#spinner-upper)">
+    <circle cx="16" cy="16" r="12.83" stroke="url(#spinner-top)" stroke-width="6.34"/>
+    <circle cx="16" cy="16" r="12.83" stroke="url(#spinner-top-fade)" stroke-width="6.34"/>
+  </g>
+  <g clip-path="url(#spinner-lower)">
+    <circle cx="16" cy="16" r="12.83" stroke="url(#spinner-bottom)" stroke-width="6.34"/>
+    <circle cx="16" cy="16" r="12.83" stroke="url(#spinner-bottom-fade)" stroke-width="6.34"/>
+  </g>
+  <g clip-path="url(#spinner-ring)">
+    <g>
+      <circle cx="16" cy="16" r="12.83" stroke="#3de4d5" stroke-opacity="0.9" stroke-width="6.34" stroke-linecap="round" stroke-dasharray="18 62.61" stroke-dashoffset="-21.23" filter="url(#spinner-glow)"/>
+      <circle cx="16" cy="16" r="12.4" stroke="#ffffff" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="5 72.91" stroke-dashoffset="-26.72" filter="url(#spinner-glint)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 16 16" to="360 16 16" dur="1.05s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <circle cx="16" cy="16" r="15.65" stroke="#3c6b66" stroke-width="0.7"/>
+  <circle cx="16" cy="16" r="9.9" stroke="#6d898a" stroke-width="0.45"/>
+</svg>

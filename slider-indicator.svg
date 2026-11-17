@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none">
+  <defs>
+    <linearGradient id="slider-indicator-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3f3f3"/>
+      <stop offset="0.48" stop-color="#ebebeb"/>
+      <stop offset="0.52" stop-color="#dbdbdb"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+  </defs>
+  <path d="M2 0.5H8Q9.5 0.5 9.5 2V12.6L5.7 17.1Q5 17.9 4.3 17.1L0.5 12.6V2Q0.5 0.5 2 0.5Z" fill="url(#slider-indicator-fill)" stroke="#686868" stroke-linejoin="round"/>
+  <path d="M2.2 1.5H7.8Q8.5 1.5 8.5 2.2V12.2L5 16.3 1.5 12.2V2.2Q1.5 1.5 2.2 1.5Z" stroke="#fcfcfc" stroke-linejoin="round"/>
+</svg>

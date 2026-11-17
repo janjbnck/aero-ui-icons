@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+  <defs>
+    <linearGradient id="restore-fill" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="12">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#f0f0f0"/>
+      <stop offset="1" stop-color="#d8d8d8"/>
+    </linearGradient>
+  </defs>
+  <path d="M2 0H12V10H10V2H2Z" fill="#535666" fill-rule="evenodd"/>
+  <path d="M3 1H11V9H10V2H3Z" fill="url(#restore-fill)" fill-rule="evenodd"/>
+  <path d="M0 2H10V12H0ZM4 6H6V8H4Z" fill="#535666" fill-rule="evenodd"/>
+  <path d="M1 3H9V11H1ZM3 5H7V9H3Z" fill="url(#restore-fill)" fill-rule="evenodd"/>
+</svg>
