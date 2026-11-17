@@ -26,6 +26,20 @@ You can also import the SVG files directly. Your bundler turns them into URLs or
 import closeUrl from "aero-ui-icons/close.svg";
 ```
 
+### CSS classes
+
+Like an icon font, the stylesheet turns any element with a class into an icon:
+
+```js
+import "aero-ui-icons/icons.css";
+```
+
+```html
+<span class="aero aero-close"></span>
+```
+
+The class names are the file names with an `aero-` prefix, so `slider-indicator-box-hover.svg` becomes `aero-slider-indicator-box-hover`. Icons are `1em` tall and scale with the `font-size`, and the width follows each icon's aspect ratio. They keep their gradients, so `color` doesn't change them.
+
 ## Icons
 
 The previews are scaled up 3×. The size column shows the actual size of each SVG.
