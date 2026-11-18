@@ -124,6 +124,7 @@ The spinner is animated with SMIL and rotates once every 1.05 s.
 | <img src="icons/pipette.svg" width="48" height="48" alt="Pipette"> | [`pipette.svg`](icons/pipette.svg) | 48 × 48 |
 | <img src="icons/rainbow.svg" width="48" height="48" alt="Rainbow"> | [`rainbow.svg`](icons/rainbow.svg) | 48 × 48 |
 | <img src="icons/eye.svg" width="48" height="48" alt="Eye"> | [`eye.svg`](icons/eye.svg) | 48 × 48 |
+| <img src="icons/palette.svg" width="48" height="48" alt="Palette"> | [`palette.svg`](icons/palette.svg) | 48 × 48 |
 
 ## Credits
 

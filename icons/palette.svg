@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="palette-wood" gradientUnits="userSpaceOnUse" x1="6" y1="6" x2="40" y2="42">
+      <stop offset="0" stop-color="#f3d39c"/>
+      <stop offset="0.5" stop-color="#d9a35e"/>
+      <stop offset="1" stop-color="#b0712f"/>
+    </linearGradient>
+    <radialGradient id="palette-paint" cx="0.38" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.25"/>
+    </radialGradient>
+    <filter id="palette-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.9"/>
+    </filter>
+    <path id="palette-shape" fill-rule="evenodd" d="M24 6C36 6 45.5 12.5 45.5 22C45.5 30 39 32.5 33.5 31.8C29.5 31.3 27.8 33.6 28.6 36.4C29.5 39.6 27 42 22 42C11 42 2.5 34.2 2.5 23.8C2.5 13.2 12 6 24 6ZM16 33.5A3.6 2.8 -20 1 0 16 33.4Z"/>
+  </defs>
+  <use href="#palette-shape" x="1" y="1.4" fill="#000000" opacity="0.25" filter="url(#palette-blur)"/>
+  <use href="#palette-shape" fill="url(#palette-wood)" stroke="#7d4b1d" stroke-width="0.6"/>
+  <path d="M5 21C7 12 15 7.6 24 7.6C33 7.6 41 11.5 43.5 18" stroke="#ffffff" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+  <path d="M8 30C12 34 18 36.5 24 36M20 39.5C14 39 9 35.5 6.5 31" stroke="#8a5420" stroke-width="0.4" stroke-linecap="round" opacity="0.35"/>
+  <g stroke-width="0.4">
+    <circle cx="12" cy="20" r="3.8" fill="#e5322b" stroke="#9c1c16"/>
+    <circle cx="18.5" cy="12.8" r="3.8" fill="#f9cf2b" stroke="#b08a10"/>
+    <circle cx="27.5" cy="11.4" r="3.8" fill="#3db94b" stroke="#21782c"/>
+    <circle cx="36" cy="14.6" r="3.8" fill="#2f80dc" stroke="#174f94"/>
+    <circle cx="39" cy="23.6" r="3.4" fill="#ffffff" stroke="#9aa3ad"/>
+  </g>
+  <g fill="url(#palette-paint)">
+    <circle cx="12" cy="20" r="3.8"/>
+    <circle cx="18.5" cy="12.8" r="3.8"/>
+    <circle cx="27.5" cy="11.4" r="3.8"/>
+    <circle cx="36" cy="14.6" r="3.8"/>
+    <circle cx="39" cy="23.6" r="3.4"/>
+  </g>
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="10.8" cy="18.6" rx="1.2" ry="0.8"/>
+    <ellipse cx="17.3" cy="11.4" rx="1.2" ry="0.8"/>
+    <ellipse cx="26.3" cy="10" rx="1.2" ry="0.8"/>
+    <ellipse cx="34.8" cy="13.2" rx="1.2" ry="0.8"/>
+  </g>
+</svg>
