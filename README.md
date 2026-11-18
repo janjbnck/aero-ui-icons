@@ -78,7 +78,7 @@ The arrows are white, so they're meant for dark or colored backgrounds.
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/clipboard.svg" width="41" height="51" alt="Clipboard"> | [`clipboard.svg`](icons/clipboard.svg) | 41 × 51 |
+| <img src="icons/clipboard.svg" width="45" height="51" alt="Clipboard"> | [`clipboard.svg`](icons/clipboard.svg) | 45 × 51 |
 
 The symbols match the arrows and are white as well.
 
