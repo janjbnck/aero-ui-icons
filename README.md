@@ -1,6 +1,6 @@
 # Aero UI Icons
 
-SVG icons in the style of the Windows 7 Aero interface: window controls, scroll buttons, arrows, symbolic arrows, a clipboard symbol, dropdown arrows, slider thumbs, a loading spinner, folders, a Control Panel icon and toolbar icons.
+SVG icons in the style of the Windows 7 Aero interface: window controls, scroll buttons, arrows, symbolic arrows, a symbolic power icon, a clipboard symbol, dropdown arrows, slider thumbs, a loading spinner, folders, a Control Panel icon and toolbar icons.
 
 ## Installation
 
@@ -77,6 +77,14 @@ All icons are 16 × 16 and the previews are scaled up 3×.
 | <img src="icons/arrow-symbolic-up-left.svg" width="48" height="48" alt="Symbolic arrow up left"> | [`arrow-symbolic-up-left.svg`](icons/arrow-symbolic-up-left.svg) | 16 × 16 |
 
 The symbolic arrows use the same gray gradient as the scroll buttons.
+
+### Symbolic icons
+
+| Preview | File | Size |
+| :-: | --- | --- |
+| <img src="icons/power-symbolic.svg" width="48" height="48" alt="Symbolic power"> | [`power-symbolic.svg`](icons/power-symbolic.svg) | 16 × 16 |
+
+The symbolic icons use the same gray gradient as the symbolic arrows.
 
 ### Arrows
 
