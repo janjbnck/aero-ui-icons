@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="pipette-glass" gradientUnits="userSpaceOnUse" x1="0" y1="-3" x2="0" y2="3">
+      <stop offset="0" stop-color="#9fbcd2"/>
+      <stop offset="0.3" stop-color="#f4fbff"/>
+      <stop offset="0.6" stop-color="#d9ecf8"/>
+      <stop offset="1" stop-color="#86a8c2"/>
+    </linearGradient>
+    <linearGradient id="pipette-liquid" gradientUnits="userSpaceOnUse" x1="0" y1="-2.4" x2="0" y2="2.4">
+      <stop offset="0" stop-color="#7cc0ff"/>
+      <stop offset="0.5" stop-color="#2f80dc"/>
+      <stop offset="1" stop-color="#1a54a6"/>
+    </linearGradient>
+    <linearGradient id="pipette-collar" gradientUnits="userSpaceOnUse" x1="0" y1="-3.8" x2="0" y2="3.8">
+      <stop offset="0" stop-color="#d9dde1"/>
+      <stop offset="0.35" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#a9b0b7"/>
+      <stop offset="1" stop-color="#6c737a"/>
+    </linearGradient>
+    <linearGradient id="pipette-bulb" gradientUnits="userSpaceOnUse" x1="0" y1="-5.2" x2="0" y2="5.2">
+      <stop offset="0" stop-color="#8a9097"/>
+      <stop offset="0.35" stop-color="#4d5359"/>
+      <stop offset="1" stop-color="#22262a"/>
+    </linearGradient>
+    <filter id="pipette-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.9"/>
+    </filter>
+  </defs>
+  <path d="M8.5 43L41 10.5" stroke="#000000" stroke-width="5" stroke-linecap="round" opacity="0.2" filter="url(#pipette-blur)"/>
+  <g transform="translate(24 24) rotate(-45)">
+    <path d="M-26 -0.7Q-26.6 0 -26 0.7L-14 2.6V-2.6Z" fill="url(#pipette-glass)" stroke="#6f8ea8" stroke-width="0.4" stroke-linejoin="round"/>
+    <rect x="-15" y="-3" width="24" height="6" rx="1.2" fill="url(#pipette-glass)" stroke="#6f8ea8" stroke-width="0.4"/>
+    <path d="M-25 -0.3L-14 -1.8H-5V1.8H-14L-25 0.3Z" fill="url(#pipette-liquid)"/>
+    <path d="M-13 -1.7H7" stroke="#ffffff" stroke-width="0.7" stroke-linecap="round" opacity="0.9"/>
+    <rect x="8" y="-3.8" width="4.5" height="7.6" rx="0.8" fill="url(#pipette-collar)" stroke="#5f666d" stroke-width="0.4"/>
+    <path d="M12 -4.2C16 -5.4 19 -5.4 22.5 -5.2C26 -5 27.5 -3 27.5 0C27.5 3 26 5 22.5 5.2C19 5.4 16 5.4 12 4.2Z" fill="url(#pipette-bulb)" stroke="#1c1f23" stroke-width="0.4"/>
+    <path d="M14 -3.2C17.5 -4 21 -4.1 23.5 -3.8C25 -3.6 25.8 -3 26.2 -2" stroke="#ffffff" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+  </g>
+</svg>

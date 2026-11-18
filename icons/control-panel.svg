@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="control-panel-bezel" gradientUnits="userSpaceOnUse" x1="3" y1="7" x2="45" y2="41">
+      <stop offset="0" stop-color="#8cc8f2"/>
+      <stop offset="1" stop-color="#2c74c0"/>
+    </linearGradient>
+    <linearGradient id="control-panel-screen" gradientUnits="userSpaceOnUse" x1="4" y1="8" x2="44" y2="40">
+      <stop offset="0" stop-color="#6fb6ea"/>
+      <stop offset="0.6" stop-color="#4b97d9"/>
+      <stop offset="1" stop-color="#2f78c4"/>
+    </linearGradient>
+    <linearGradient id="control-panel-gloss" gradientUnits="userSpaceOnUse" x1="0" y1="8" x2="0" y2="26">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="control-panel-track" gradientUnits="userSpaceOnUse" x1="0" y1="-2" x2="0" y2="2">
+      <stop offset="0" stop-color="#174f94"/>
+      <stop offset="1" stop-color="#2b75c8"/>
+    </linearGradient>
+    <linearGradient id="control-panel-value" gradientUnits="userSpaceOnUse" x1="10" y1="0" x2="38" y2="0">
+      <stop offset="0" stop-color="#eef9ff"/>
+      <stop offset="1" stop-color="#5cb8f2"/>
+    </linearGradient>
+    <linearGradient id="control-panel-thumb" gradientUnits="userSpaceOnUse" x1="0" y1="-3.5" x2="0" y2="3.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#f1f6fb"/>
+      <stop offset="0.55" stop-color="#dbe7f3"/>
+      <stop offset="1" stop-color="#c6d8eb"/>
+    </linearGradient>
+    <filter id="control-panel-blur" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+  </defs>
+  <rect x="5" y="39.6" width="38" height="3" rx="1.5" fill="#000000" opacity="0.25" filter="url(#control-panel-blur)"/>
+  <rect x="3" y="7" width="42" height="34" rx="2.2" fill="url(#control-panel-bezel)" stroke="#2866a8" stroke-width="0.5"/>
+  <rect x="4.2" y="8.2" width="39.6" height="31.6" rx="1.4" fill="url(#control-panel-screen)"/>
+  <path d="M4.2 9.6Q4.2 8.2 5.6 8.2H42.4Q43.8 8.2 43.8 9.6V21Q24 27 4.2 23Z" fill="url(#control-panel-gloss)"/>
+  <g transform="translate(0 15.5)">
+    <rect x="10" y="-2" width="28" height="4" rx="2" fill="url(#control-panel-track)" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.8"/>
+    <rect x="10.25" y="-1.75" width="21" height="3.5" rx="1.75" fill="url(#control-panel-value)"/>
+    <rect x="29.4" y="-3.5" width="3.2" height="7" rx="1" fill="url(#control-panel-thumb)" stroke="#245d9e" stroke-width="0.4"/>
+  </g>
+  <g transform="translate(0 24)">
+    <rect x="10" y="-2" width="28" height="4" rx="2" fill="url(#control-panel-track)" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.8"/>
+    <rect x="10.25" y="-1.75" width="9" height="3.5" rx="1.75" fill="url(#control-panel-value)"/>
+    <rect x="17.4" y="-3.5" width="3.2" height="7" rx="1" fill="url(#control-panel-thumb)" stroke="#245d9e" stroke-width="0.4"/>
+  </g>
+  <g transform="translate(0 32.5)">
+    <rect x="10" y="-2" width="28" height="4" rx="2" fill="url(#control-panel-track)" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.8"/>
+    <rect x="10.25" y="-1.75" width="15" height="3.5" rx="1.75" fill="url(#control-panel-value)"/>
+    <rect x="23.4" y="-3.5" width="3.2" height="7" rx="1" fill="url(#control-panel-thumb)" stroke="#245d9e" stroke-width="0.4"/>
+  </g>
+</svg>

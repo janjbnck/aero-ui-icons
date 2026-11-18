@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <radialGradient id="eye-sclera" gradientUnits="userSpaceOnUse" cx="24" cy="25" r="21">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#f2f5f8"/>
+      <stop offset="1" stop-color="#c3ced9"/>
+    </radialGradient>
+    <linearGradient id="eye-lid-shadow" gradientUnits="userSpaceOnUse" x1="0" y1="14" x2="0" y2="24">
+      <stop offset="0" stop-color="#3a4a5c" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3a4a5c" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="eye-iris" gradientUnits="userSpaceOnUse" cx="24" cy="25.5" r="9">
+      <stop offset="0" stop-color="#a6dcff"/>
+      <stop offset="0.5" stop-color="#3f93e0"/>
+      <stop offset="1" stop-color="#1a4c90"/>
+    </radialGradient>
+    <clipPath id="eye-clip">
+      <path d="M3 24C11 12.5 37 12.5 45 24C37 35.5 11 35.5 3 24Z"/>
+    </clipPath>
+  </defs>
+  <path d="M3 24C11 12.5 37 12.5 45 24C37 35.5 11 35.5 3 24Z" fill="url(#eye-sclera)"/>
+  <g clip-path="url(#eye-clip)">
+    <circle cx="24" cy="24" r="9" fill="url(#eye-iris)" stroke="#123a6e" stroke-width="0.7"/>
+    <path d="M24 17V20.5M24 27.5V31M17 24H20.5M27.5 24H31M19 19L21.4 21.4M26.6 26.6L29 29M29 19L26.6 21.4M21.4 26.6L19 29" stroke="#ffffff" stroke-width="0.4" opacity="0.25"/>
+    <circle cx="24" cy="24" r="3.8" fill="#0c1520"/>
+    <rect x="0" y="12" width="48" height="12" fill="url(#eye-lid-shadow)"/>
+  </g>
+  <ellipse cx="20.8" cy="20.8" rx="2.2" ry="1.7" fill="#ffffff" opacity="0.9"/>
+  <circle cx="27.6" cy="27.4" r="0.8" fill="#ffffff" opacity="0.7"/>
+  <path d="M3 24C11 35.5 37 35.5 45 24" stroke="#5c6a78" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M2.5 24.3C11 12 37 12 45.5 24.3" stroke="#26313d" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
