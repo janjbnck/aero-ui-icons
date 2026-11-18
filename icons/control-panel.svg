@@ -27,7 +27,7 @@
       <stop offset="0.55" stop-color="#dbe7f3"/>
       <stop offset="1" stop-color="#c6d8eb"/>
     </linearGradient>
-    <filter id="control-panel-blur" x="-20%" y="-100%" width="140%" height="300%">
+    <filter id="control-panel-blur" color-interpolation-filters="sRGB" x="-20%" y="-100%" width="140%" height="300%">
       <feGaussianBlur stdDeviation="0.8"/>
     </filter>
   </defs>

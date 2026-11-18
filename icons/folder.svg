@@ -13,7 +13,7 @@
       <stop offset="0" stop-color="#8fc2ff"/>
       <stop offset="1" stop-color="#3b7fe4"/>
     </linearGradient>
-    <filter id="folder-blur" x="-20%" y="-100%" width="140%" height="300%">
+    <filter id="folder-blur" color-interpolation-filters="sRGB" x="-20%" y="-100%" width="140%" height="300%">
       <feGaussianBlur stdDeviation="0.8"/>
     </filter>
   </defs>
