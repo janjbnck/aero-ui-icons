@@ -9,9 +9,6 @@
       <stop offset="0.6" stop-color="#f1f6fb"/>
       <stop offset="1" stop-color="#cbdbea"/>
     </linearGradient>
-    <filter id="rainbow-blur" color-interpolation-filters="sRGB" x="-20%" y="-100%" width="140%" height="300%">
-      <feGaussianBlur stdDeviation="0.8"/>
-    </filter>
     <path id="rainbow-cloud-shape" d="M-7.5 5Q-9.5 5 -9.5 3Q-9.5 0.3 -6.5 0.2Q-6.5 -3 -3.5 -3.2Q-2 -6.5 1.5 -5.8Q5 -5.2 4.8 -1.8Q8.8 -2.2 9.3 1.4Q9.6 5 6.5 5Z"/>
   </defs>
   <g stroke-width="2.1">
@@ -24,8 +21,12 @@
   </g>
   <path d="M9 34A15 15 0 0 1 39 34" stroke="url(#rainbow-gloss)" stroke-width="12"/>
   <path d="M3 34A21 21 0 0 1 45 34M15 34A9 9 0 0 1 33 34" stroke="#000000" stroke-width="0.4" opacity="0.25"/>
-  <ellipse cx="10" cy="40.4" rx="8" ry="1.2" fill="#000000" opacity="0.2" filter="url(#rainbow-blur)"/>
-  <ellipse cx="38" cy="40.4" rx="8" ry="1.2" fill="#000000" opacity="0.2" filter="url(#rainbow-blur)"/>
+  <ellipse cx="10" cy="40.4" rx="8" ry="1.2" fill="#000000" opacity="0.067" stroke="#000000" stroke-width="0.8" stroke-linejoin="round"/>
+  <ellipse cx="10" cy="40.4" rx="8" ry="1.2" fill="#000000" opacity="0.067" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <ellipse cx="10" cy="40.4" rx="8" ry="1.2" fill="#000000" opacity="0.067" stroke="#000000" stroke-width="2.4" stroke-linejoin="round"/>
+  <ellipse cx="38" cy="40.4" rx="8" ry="1.2" fill="#000000" opacity="0.067" stroke="#000000" stroke-width="0.8" stroke-linejoin="round"/>
+  <ellipse cx="38" cy="40.4" rx="8" ry="1.2" fill="#000000" opacity="0.067" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <ellipse cx="38" cy="40.4" rx="8" ry="1.2" fill="#000000" opacity="0.067" stroke="#000000" stroke-width="2.4" stroke-linejoin="round"/>
   <use href="#rainbow-cloud-shape" x="10" y="34.5" fill="url(#rainbow-cloud)" stroke="#9db4cb" stroke-width="0.6" stroke-linejoin="round"/>
   <use href="#rainbow-cloud-shape" transform="translate(38 34.5) scale(-1 1)" fill="url(#rainbow-cloud)" stroke="#9db4cb" stroke-width="0.6" stroke-linejoin="round"/>
 </svg>
