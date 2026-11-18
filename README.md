@@ -42,7 +42,7 @@ The class names are the file names with an `aero-` prefix, so `slider-indicator-
 
 ## Icons
 
-All icons are 32 × 32 with the artwork centered at 16 × 16, so shadows don't get cut off. The previews are scaled up 3×.
+All icons are 32 × 32 with the artwork centered at 16 × 16, so shadows don't get cut off. The previews are scaled up 3×. The full-color shell and toolbar icons are sized to look as big as `sliders.svg`.
 
 ### Window controls
 
