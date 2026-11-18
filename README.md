@@ -1,6 +1,6 @@
 # Aero UI Icons
 
-SVG icons in the style of the Windows 7 Aero interface: window controls, scroll buttons, dropdown arrows, slider thumbs and a loading spinner.
+SVG icons in the style of the Windows 7 Aero interface: window controls, scroll buttons, arrows, a clipboard symbol, dropdown arrows, slider thumbs and a loading spinner.
 
 ## Installation
 
@@ -42,7 +42,7 @@ The class names are the file names with an `aero-` prefix, so `slider-indicator-
 
 ## Icons
 
-The previews are scaled up 3×, except for the arrows. The size column shows the actual size of each SVG.
+The previews are scaled up 3×, except for the arrows and symbols. The size column shows the actual size of each SVG.
 
 ### Window controls
 
@@ -73,6 +73,14 @@ The previews are scaled up 3×, except for the arrows. The size column shows the
 | <img src="icons/arrow-right.svg" width="51" height="49" alt="Arrow right"> | [`arrow-right.svg`](icons/arrow-right.svg) | 51 × 49 |
 
 The arrows are white, so they're meant for dark or colored backgrounds.
+
+### Symbols
+
+| Preview | File | Size |
+| :-: | --- | --- |
+| <img src="icons/clipboard.svg" width="41" height="51" alt="Clipboard"> | [`clipboard.svg`](icons/clipboard.svg) | 41 × 51 |
+
+The symbols match the arrows and are white as well.
 
 ### Dropdown and search
 
