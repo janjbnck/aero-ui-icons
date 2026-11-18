@@ -1,35 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
   <defs>
-    <radialGradient id="back-forward-body" cx="0.5" cy="0.9" r="0.75">
-      <stop offset="0" stop-color="#86dcff"/>
-      <stop offset="0.45" stop-color="#3a8fe2"/>
-      <stop offset="1" stop-color="#1b4c9c"/>
-    </radialGradient>
+    <linearGradient id="back-forward-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ad6ff"/>
+      <stop offset="0.5" stop-color="#3f9ced"/>
+      <stop offset="1" stop-color="#1b6acb"/>
+    </linearGradient>
     <linearGradient id="back-forward-gloss" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.1"/>
     </linearGradient>
-    <linearGradient id="back-forward-arrow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#d2e6fa"/>
-    </linearGradient>
-    <filter id="back-forward-blur" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="0.7"/>
-    </filter>
-    <g id="back-forward-button">
-      <circle r="10.5" fill="url(#back-forward-body)" stroke="#1a3d74" stroke-width="0.8"/>
-      <circle r="9.6" stroke="#ffffff" stroke-width="0.5" opacity="0.35"/>
-      <ellipse cy="-4.6" rx="7.6" ry="5.2" fill="url(#back-forward-gloss)"/>
-    </g>
-    <path id="back-forward-left" d="M-7.5 0L-1.5 -5.5V-2.3H7V2.3H-1.5V5.5Z" stroke-linejoin="round"/>
   </defs>
-  <ellipse cx="24" cy="46" rx="10" ry="1.2" fill="#000000" opacity="0.25" filter="url(#back-forward-blur)"/>
-  <use href="#back-forward-button" x="24" y="13"/>
-  <use href="#back-forward-button" x="24" y="35"/>
-  <use href="#back-forward-left" x="24" y="13.7" fill="#0b2f66" opacity="0.35"/>
-  <use href="#back-forward-left" x="24" y="13" fill="url(#back-forward-arrow)"/>
-  <g transform="translate(24 35) scale(-1 1)">
-    <use href="#back-forward-left" y="0.7" fill="#0b2f66" opacity="0.35"/>
-    <use href="#back-forward-left" fill="url(#back-forward-arrow)"/>
-  </g>
+  <path d="M6 12.5L18 3V8.5H42V16.5H18V22Z" fill="url(#back-forward-fill)" stroke="#185aa8" stroke-width="0.8" stroke-linejoin="round"/>
+  <path d="M7.77 12.5L16.9 5.27V9.6H40.9V15.4H16.9V19.73Z" stroke="#ffffff" stroke-width="0.5" stroke-linejoin="round" opacity="0.35"/>
+  <path d="M7.77 12.5L16.9 5.27V9.6H40.9V12.5Z" fill="url(#back-forward-gloss)"/>
+  <path d="M42 35.5L30 26V31.5H6V39.5H30V45Z" fill="url(#back-forward-fill)" stroke="#185aa8" stroke-width="0.8" stroke-linejoin="round"/>
+  <path d="M40.23 35.5L31.1 28.27V32.6H7.1V38.4H31.1V42.73Z" stroke="#ffffff" stroke-width="0.5" stroke-linejoin="round" opacity="0.35"/>
+  <path d="M40.23 35.5L31.1 28.27V32.6H7.1V35.5Z" fill="url(#back-forward-gloss)"/>
 </svg>
