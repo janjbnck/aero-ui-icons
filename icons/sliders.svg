@@ -10,15 +10,14 @@
       <stop offset="0.5" stop-color="#d8dce0"/>
       <stop offset="1" stop-color="#bcc2c8"/>
     </linearGradient>
-    <filter id="sliders-blur" color-interpolation-filters="sRGB" x="-100%" y="-50%" width="300%" height="200%">
-      <feGaussianBlur stdDeviation="0.6"/>
-    </filter>
     <g id="sliders-slider">
       <rect x="5" y="-2" width="38" height="4" rx="2" fill="url(#sliders-track)" stroke="#5a6067" stroke-width="0.4"/>
       <path d="M7 2.4H41" stroke="#ffffff" stroke-width="0.5" opacity="0.7"/>
     </g>
     <g id="sliders-thumb-shape">
-      <rect x="-2.6" y="-4.6" width="6" height="11" rx="1.6" fill="#000000" opacity="0.3" filter="url(#sliders-blur)"/>
+      <rect x="-2.6" y="-4.6" width="6" height="11" rx="1.6" fill="#000000" opacity="0.1" stroke="#000000" stroke-width="0.6" stroke-linejoin="round"/>
+      <rect x="-2.6" y="-4.6" width="6" height="11" rx="1.6" fill="#000000" opacity="0.1" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+      <rect x="-2.6" y="-4.6" width="6" height="11" rx="1.6" fill="#000000" opacity="0.1" stroke="#000000" stroke-width="1.8" stroke-linejoin="round"/>
       <rect x="-3" y="-5.5" width="6" height="11" rx="1.6" fill="url(#sliders-thumb)" stroke="#676d74" stroke-width="0.5"/>
       <rect x="-2.4" y="-4.9" width="4.8" height="9.8" rx="1.1" stroke="#ffffff" stroke-width="0.4" opacity="0.8"/>
       <path d="M-0.8 -2V2M0.8 -2V2" stroke="#8f959c" stroke-width="0.4"/>
