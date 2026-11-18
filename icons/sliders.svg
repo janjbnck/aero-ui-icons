@@ -10,7 +10,7 @@
       <stop offset="0.5" stop-color="#d8dce0"/>
       <stop offset="1" stop-color="#bcc2c8"/>
     </linearGradient>
-    <filter id="sliders-blur" x="-100%" y="-50%" width="300%" height="200%">
+    <filter id="sliders-blur" color-interpolation-filters="sRGB" x="-100%" y="-50%" width="300%" height="200%">
       <feGaussianBlur stdDeviation="0.6"/>
     </filter>
     <g id="sliders-slider">

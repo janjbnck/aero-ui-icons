@@ -22,7 +22,7 @@
       <stop offset="0.35" stop-color="#4d5359"/>
       <stop offset="1" stop-color="#22262a"/>
     </linearGradient>
-    <filter id="pipette-blur" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="pipette-blur" color-interpolation-filters="sRGB" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="0.9"/>
     </filter>
   </defs>
