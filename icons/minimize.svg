@@ -5,9 +5,7 @@
       <stop offset="0.45" stop-color="#f0f0f0"/>
       <stop offset="1" stop-color="#d8d8d8"/>
     </linearGradient>
-    <clipPath id="minimize-shape0">
-      <path d="M0 1.5Q0 0 1.5 0L10.5 0Q12 0 12 1.5L12 4.5Q12 6 10.5 6L1.5 6Q0 6 0 4.5Z" clip-rule="evenodd"/>
-    </clipPath>
   </defs>
-  <path d="M0 1.5Q0 0 1.5 0L10.5 0Q12 0 12 1.5L12 4.5Q12 6 10.5 6L1.5 6Q0 6 0 4.5Z" fill="url(#minimize-fill)" fill-rule="evenodd" stroke="#535666" stroke-width="2" clip-path="url(#minimize-shape0)"/>
+  <path d="M0 0H12V6H0Z" fill="#535666" fill-rule="evenodd"/>
+  <path d="M1 1H11V5H1Z" fill="url(#minimize-fill)" fill-rule="evenodd"/>
 </svg>

@@ -5,9 +5,9 @@
       <stop offset="0.45" stop-color="#f0f0f0"/>
       <stop offset="1" stop-color="#d8d8d8"/>
     </linearGradient>
-    <clipPath id="close-shape0">
-      <path d="M0.58 0.82Q0 0 1 0L3.9 0Q4.9 0 5.48 0.82L5.71 1.14Q6 1.55 6.29 1.14L6.52 0.82Q7.1 0 8.1 0L11 0Q12 0 11.42 0.82L8.74 4.59Q8.45 5 8.74 5.41L11.42 9.18Q12 10 11 10L8.1 10Q7.1 10 6.52 9.18L6.29 8.86Q6 8.45 5.71 8.86L5.48 9.18Q4.9 10 3.9 10L1 10Q0 10 0.58 9.18L3.26 5.41Q3.55 5 3.26 4.59Z" clip-rule="evenodd"/>
+    <clipPath id="close-shape">
+      <path d="M0 0H4.9L6 1.55 7.1 0H12L8.45 5 12 10H7.1L6 8.45 4.9 10H0L3.55 5Z"/>
     </clipPath>
   </defs>
-  <path d="M0.58 0.82Q0 0 1 0L3.9 0Q4.9 0 5.48 0.82L5.71 1.14Q6 1.55 6.29 1.14L6.52 0.82Q7.1 0 8.1 0L11 0Q12 0 11.42 0.82L8.74 4.59Q8.45 5 8.74 5.41L11.42 9.18Q12 10 11 10L8.1 10Q7.1 10 6.52 9.18L6.29 8.86Q6 8.45 5.71 8.86L5.48 9.18Q4.9 10 3.9 10L1 10Q0 10 0.58 9.18L3.26 5.41Q3.55 5 3.26 4.59Z" fill="url(#close-fill)" fill-rule="evenodd" stroke="#535666" stroke-width="2" clip-path="url(#close-shape0)"/>
+  <path d="M0 0H4.9L6 1.55 7.1 0H12L8.45 5 12 10H7.1L6 8.45 4.9 10H0L3.55 5Z" fill="url(#close-fill)" stroke="#535666" stroke-width="2" clip-path="url(#close-shape)"/>
 </svg>
