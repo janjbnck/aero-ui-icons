@@ -56,12 +56,18 @@ All icons are 32 × 32 with the artwork centered at 16 × 16, so shadows don't g
 
 ### Scroll buttons
 
-| Preview | File | Size |
-| :-: | --- | --- |
-| <img src="icons/button-up.svg" width="96" height="96" alt="Up"> | [`button-up.svg`](icons/button-up.svg) | 32 × 32 |
-| <img src="icons/button-down.svg" width="96" height="96" alt="Down"> | [`button-down.svg`](icons/button-down.svg) | 32 × 32 |
-| <img src="icons/button-left.svg" width="96" height="96" alt="Left"> | [`button-left.svg`](icons/button-left.svg) | 32 × 32 |
-| <img src="icons/button-right.svg" width="96" height="96" alt="Right"> | [`button-right.svg`](icons/button-right.svg) | 32 × 32 |
+| Normal | Light | Size |
+| :-: | :-: | --- |
+| <img src="icons/button-up.svg" width="96" height="96" alt="Up"><br>[`button-up.svg`](icons/button-up.svg) | <img src="icons/button-up-light.svg" width="96" height="96" alt="Up, light"><br>[`button-up-light.svg`](icons/button-up-light.svg) | 32 × 32 |
+| <img src="icons/button-up-right.svg" width="96" height="96" alt="Up right"><br>[`button-up-right.svg`](icons/button-up-right.svg) | <img src="icons/button-up-right-light.svg" width="96" height="96" alt="Up right, light"><br>[`button-up-right-light.svg`](icons/button-up-right-light.svg) | 32 × 32 |
+| <img src="icons/button-right.svg" width="96" height="96" alt="Right"><br>[`button-right.svg`](icons/button-right.svg) | <img src="icons/button-right-light.svg" width="96" height="96" alt="Right, light"><br>[`button-right-light.svg`](icons/button-right-light.svg) | 32 × 32 |
+| <img src="icons/button-down-right.svg" width="96" height="96" alt="Down right"><br>[`button-down-right.svg`](icons/button-down-right.svg) | <img src="icons/button-down-right-light.svg" width="96" height="96" alt="Down right, light"><br>[`button-down-right-light.svg`](icons/button-down-right-light.svg) | 32 × 32 |
+| <img src="icons/button-down.svg" width="96" height="96" alt="Down"><br>[`button-down.svg`](icons/button-down.svg) | <img src="icons/button-down-light.svg" width="96" height="96" alt="Down, light"><br>[`button-down-light.svg`](icons/button-down-light.svg) | 32 × 32 |
+| <img src="icons/button-down-left.svg" width="96" height="96" alt="Down left"><br>[`button-down-left.svg`](icons/button-down-left.svg) | <img src="icons/button-down-left-light.svg" width="96" height="96" alt="Down left, light"><br>[`button-down-left-light.svg`](icons/button-down-left-light.svg) | 32 × 32 |
+| <img src="icons/button-left.svg" width="96" height="96" alt="Left"><br>[`button-left.svg`](icons/button-left.svg) | <img src="icons/button-left-light.svg" width="96" height="96" alt="Left, light"><br>[`button-left-light.svg`](icons/button-left-light.svg) | 32 × 32 |
+| <img src="icons/button-up-left.svg" width="96" height="96" alt="Up left"><br>[`button-up-left.svg`](icons/button-up-left.svg) | <img src="icons/button-up-left-light.svg" width="96" height="96" alt="Up left, light"><br>[`button-up-left-light.svg`](icons/button-up-left-light.svg) | 32 × 32 |
+
+The light versions are meant for dark or colored backgrounds.
 
 ### Symbolic arrows
 
