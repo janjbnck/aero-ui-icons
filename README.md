@@ -38,43 +38,43 @@ import "aero-ui-icons/icons.css";
 <span class="aero aero-close"></span>
 ```
 
-The class names are the file names with an `aero-` prefix, so `slider-indicator-box-hover.svg` becomes `aero-slider-indicator-box-hover`. Icons are `1em` square and scale with the `font-size`. They keep their gradients, so `color` doesn't change them.
+The class names are the file names with an `aero-` prefix, so `slider-indicator-box-hover.svg` becomes `aero-slider-indicator-box-hover`. The artwork is `1em` square and scales with the `font-size`. The element is `2em` with a `-0.5em` margin, so shadows have room without changing the layout. Icons keep their gradients, so `color` doesn't change them.
 
 ## Icons
 
-All icons are 16 × 16 and the previews are scaled up 3×.
+All icons are 32 × 32 with the artwork centered at 16 × 16, so shadows don't get cut off. The previews are scaled up 3×. The full-color shell and toolbar icons are sized to look as big as `sliders.svg`.
 
 ### Window controls
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/minimize.svg" width="48" height="48" alt="Minimize"> | [`minimize.svg`](icons/minimize.svg) | 16 × 16 |
-| <img src="icons/maximize.svg" width="48" height="48" alt="Maximize"> | [`maximize.svg`](icons/maximize.svg) | 16 × 16 |
-| <img src="icons/restore.svg" width="48" height="48" alt="Restore"> | [`restore.svg`](icons/restore.svg) | 16 × 16 |
-| <img src="icons/close.svg" width="48" height="48" alt="Close"> | [`close.svg`](icons/close.svg) | 16 × 16 |
-| <img src="icons/help.svg" width="48" height="48" alt="Help"> | [`help.svg`](icons/help.svg) | 16 × 16 |
+| <img src="icons/minimize.svg" width="96" height="96" alt="Minimize"> | [`minimize.svg`](icons/minimize.svg) | 32 × 32 |
+| <img src="icons/maximize.svg" width="96" height="96" alt="Maximize"> | [`maximize.svg`](icons/maximize.svg) | 32 × 32 |
+| <img src="icons/restore.svg" width="96" height="96" alt="Restore"> | [`restore.svg`](icons/restore.svg) | 32 × 32 |
+| <img src="icons/close.svg" width="96" height="96" alt="Close"> | [`close.svg`](icons/close.svg) | 32 × 32 |
+| <img src="icons/help.svg" width="96" height="96" alt="Help"> | [`help.svg`](icons/help.svg) | 32 × 32 |
 
 ### Scroll buttons
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/button-up.svg" width="48" height="48" alt="Up"> | [`button-up.svg`](icons/button-up.svg) | 16 × 16 |
-| <img src="icons/button-down.svg" width="48" height="48" alt="Down"> | [`button-down.svg`](icons/button-down.svg) | 16 × 16 |
-| <img src="icons/button-left.svg" width="48" height="48" alt="Left"> | [`button-left.svg`](icons/button-left.svg) | 16 × 16 |
-| <img src="icons/button-right.svg" width="48" height="48" alt="Right"> | [`button-right.svg`](icons/button-right.svg) | 16 × 16 |
+| <img src="icons/button-up.svg" width="96" height="96" alt="Up"> | [`button-up.svg`](icons/button-up.svg) | 32 × 32 |
+| <img src="icons/button-down.svg" width="96" height="96" alt="Down"> | [`button-down.svg`](icons/button-down.svg) | 32 × 32 |
+| <img src="icons/button-left.svg" width="96" height="96" alt="Left"> | [`button-left.svg`](icons/button-left.svg) | 32 × 32 |
+| <img src="icons/button-right.svg" width="96" height="96" alt="Right"> | [`button-right.svg`](icons/button-right.svg) | 32 × 32 |
 
 ### Symbolic arrows
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/arrow-symbolic-up.svg" width="48" height="48" alt="Symbolic arrow up"> | [`arrow-symbolic-up.svg`](icons/arrow-symbolic-up.svg) | 16 × 16 |
-| <img src="icons/arrow-symbolic-up-right.svg" width="48" height="48" alt="Symbolic arrow up right"> | [`arrow-symbolic-up-right.svg`](icons/arrow-symbolic-up-right.svg) | 16 × 16 |
-| <img src="icons/arrow-symbolic-right.svg" width="48" height="48" alt="Symbolic arrow right"> | [`arrow-symbolic-right.svg`](icons/arrow-symbolic-right.svg) | 16 × 16 |
-| <img src="icons/arrow-symbolic-down-right.svg" width="48" height="48" alt="Symbolic arrow down right"> | [`arrow-symbolic-down-right.svg`](icons/arrow-symbolic-down-right.svg) | 16 × 16 |
-| <img src="icons/arrow-symbolic-down.svg" width="48" height="48" alt="Symbolic arrow down"> | [`arrow-symbolic-down.svg`](icons/arrow-symbolic-down.svg) | 16 × 16 |
-| <img src="icons/arrow-symbolic-down-left.svg" width="48" height="48" alt="Symbolic arrow down left"> | [`arrow-symbolic-down-left.svg`](icons/arrow-symbolic-down-left.svg) | 16 × 16 |
-| <img src="icons/arrow-symbolic-left.svg" width="48" height="48" alt="Symbolic arrow left"> | [`arrow-symbolic-left.svg`](icons/arrow-symbolic-left.svg) | 16 × 16 |
-| <img src="icons/arrow-symbolic-up-left.svg" width="48" height="48" alt="Symbolic arrow up left"> | [`arrow-symbolic-up-left.svg`](icons/arrow-symbolic-up-left.svg) | 16 × 16 |
+| <img src="icons/arrow-symbolic-up.svg" width="96" height="96" alt="Symbolic arrow up"> | [`arrow-symbolic-up.svg`](icons/arrow-symbolic-up.svg) | 32 × 32 |
+| <img src="icons/arrow-symbolic-up-right.svg" width="96" height="96" alt="Symbolic arrow up right"> | [`arrow-symbolic-up-right.svg`](icons/arrow-symbolic-up-right.svg) | 32 × 32 |
+| <img src="icons/arrow-symbolic-right.svg" width="96" height="96" alt="Symbolic arrow right"> | [`arrow-symbolic-right.svg`](icons/arrow-symbolic-right.svg) | 32 × 32 |
+| <img src="icons/arrow-symbolic-down-right.svg" width="96" height="96" alt="Symbolic arrow down right"> | [`arrow-symbolic-down-right.svg`](icons/arrow-symbolic-down-right.svg) | 32 × 32 |
+| <img src="icons/arrow-symbolic-down.svg" width="96" height="96" alt="Symbolic arrow down"> | [`arrow-symbolic-down.svg`](icons/arrow-symbolic-down.svg) | 32 × 32 |
+| <img src="icons/arrow-symbolic-down-left.svg" width="96" height="96" alt="Symbolic arrow down left"> | [`arrow-symbolic-down-left.svg`](icons/arrow-symbolic-down-left.svg) | 32 × 32 |
+| <img src="icons/arrow-symbolic-left.svg" width="96" height="96" alt="Symbolic arrow left"> | [`arrow-symbolic-left.svg`](icons/arrow-symbolic-left.svg) | 32 × 32 |
+| <img src="icons/arrow-symbolic-up-left.svg" width="96" height="96" alt="Symbolic arrow up left"> | [`arrow-symbolic-up-left.svg`](icons/arrow-symbolic-up-left.svg) | 32 × 32 |
 
 The symbolic arrows use the same gray gradient as the scroll buttons.
 
@@ -82,10 +82,10 @@ The symbolic arrows use the same gray gradient as the scroll buttons.
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/arrow-up.svg" width="48" height="48" alt="Arrow up"> | [`arrow-up.svg`](icons/arrow-up.svg) | 16 × 16 |
-| <img src="icons/arrow-down.svg" width="48" height="48" alt="Arrow down"> | [`arrow-down.svg`](icons/arrow-down.svg) | 16 × 16 |
-| <img src="icons/arrow-left.svg" width="48" height="48" alt="Arrow left"> | [`arrow-left.svg`](icons/arrow-left.svg) | 16 × 16 |
-| <img src="icons/arrow-right.svg" width="48" height="48" alt="Arrow right"> | [`arrow-right.svg`](icons/arrow-right.svg) | 16 × 16 |
+| <img src="icons/arrow-up.svg" width="96" height="96" alt="Arrow up"> | [`arrow-up.svg`](icons/arrow-up.svg) | 32 × 32 |
+| <img src="icons/arrow-down.svg" width="96" height="96" alt="Arrow down"> | [`arrow-down.svg`](icons/arrow-down.svg) | 32 × 32 |
+| <img src="icons/arrow-left.svg" width="96" height="96" alt="Arrow left"> | [`arrow-left.svg`](icons/arrow-left.svg) | 32 × 32 |
+| <img src="icons/arrow-right.svg" width="96" height="96" alt="Arrow right"> | [`arrow-right.svg`](icons/arrow-right.svg) | 32 × 32 |
 
 The arrows are white, so they're meant for dark or colored backgrounds.
 
@@ -93,8 +93,8 @@ The arrows are white, so they're meant for dark or colored backgrounds.
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/clipboard.svg" width="48" height="48" alt="Clipboard"> | [`clipboard.svg`](icons/clipboard.svg) | 16 × 16 |
-| <img src="icons/power.svg" width="48" height="48" alt="Power"> | [`power.svg`](icons/power.svg) | 16 × 16 |
+| <img src="icons/clipboard.svg" width="96" height="96" alt="Clipboard"> | [`clipboard.svg`](icons/clipboard.svg) | 32 × 32 |
+| <img src="icons/power.svg" width="96" height="96" alt="Power"> | [`power.svg`](icons/power.svg) | 32 × 32 |
 
 The symbols match the arrows and are white as well.
 
@@ -102,22 +102,23 @@ The symbols match the arrows and are white as well.
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/dropdown-arrow.svg" width="48" height="48" alt="Dropdown arrow"> | [`dropdown-arrow.svg`](icons/dropdown-arrow.svg) | 16 × 16 |
-| <img src="icons/dropdown-arrow-disabled.svg" width="48" height="48" alt="Dropdown arrow, disabled"> | [`dropdown-arrow-disabled.svg`](icons/dropdown-arrow-disabled.svg) | 16 × 16 |
-| <img src="icons/search.svg" width="48" height="48" alt="Search"> | [`search.svg`](icons/search.svg) | 16 × 16 |
+| <img src="icons/dropdown-arrow.svg" width="96" height="96" alt="Dropdown arrow"> | [`dropdown-arrow.svg`](icons/dropdown-arrow.svg) | 32 × 32 |
+| <img src="icons/dropdown-arrow-light.svg" width="96" height="96" alt="Dropdown arrow, light"> | [`dropdown-arrow-light.svg`](icons/dropdown-arrow-light.svg) | 32 × 32 |
+| <img src="icons/dropdown-arrow-disabled.svg" width="96" height="96" alt="Dropdown arrow, disabled"> | [`dropdown-arrow-disabled.svg`](icons/dropdown-arrow-disabled.svg) | 32 × 32 |
+| <img src="icons/search.svg" width="96" height="96" alt="Search"> | [`search.svg`](icons/search.svg) | 32 × 32 |
 
 ### Slider thumbs
 
 | Normal | Hover | Active | Disabled | Size |
 | :-: | :-: | :-: | :-: | --- |
-| <img src="icons/slider-indicator.svg" width="48" height="48" alt="Slider indicator"><br>[`slider-indicator.svg`](icons/slider-indicator.svg) | <img src="icons/slider-indicator-hover.svg" width="48" height="48" alt="Slider indicator, hover"><br>[`slider-indicator-hover.svg`](icons/slider-indicator-hover.svg) | <img src="icons/slider-indicator-active.svg" width="48" height="48" alt="Slider indicator, active"><br>[`slider-indicator-active.svg`](icons/slider-indicator-active.svg) | <img src="icons/slider-indicator-disabled.svg" width="48" height="48" alt="Slider indicator, disabled"><br>[`slider-indicator-disabled.svg`](icons/slider-indicator-disabled.svg) | 16 × 16 |
-| <img src="icons/slider-indicator-box.svg" width="48" height="48" alt="Slider box"><br>[`slider-indicator-box.svg`](icons/slider-indicator-box.svg) | <img src="icons/slider-indicator-box-hover.svg" width="48" height="48" alt="Slider box, hover"><br>[`slider-indicator-box-hover.svg`](icons/slider-indicator-box-hover.svg) | <img src="icons/slider-indicator-box-active.svg" width="48" height="48" alt="Slider box, active"><br>[`slider-indicator-box-active.svg`](icons/slider-indicator-box-active.svg) | <img src="icons/slider-indicator-box-disabled.svg" width="48" height="48" alt="Slider box, disabled"><br>[`slider-indicator-box-disabled.svg`](icons/slider-indicator-box-disabled.svg) | 16 × 16 |
+| <img src="icons/slider-indicator.svg" width="96" height="96" alt="Slider indicator"><br>[`slider-indicator.svg`](icons/slider-indicator.svg) | <img src="icons/slider-indicator-hover.svg" width="96" height="96" alt="Slider indicator, hover"><br>[`slider-indicator-hover.svg`](icons/slider-indicator-hover.svg) | <img src="icons/slider-indicator-active.svg" width="96" height="96" alt="Slider indicator, active"><br>[`slider-indicator-active.svg`](icons/slider-indicator-active.svg) | <img src="icons/slider-indicator-disabled.svg" width="96" height="96" alt="Slider indicator, disabled"><br>[`slider-indicator-disabled.svg`](icons/slider-indicator-disabled.svg) | 32 × 32 |
+| <img src="icons/slider-indicator-box.svg" width="96" height="96" alt="Slider box"><br>[`slider-indicator-box.svg`](icons/slider-indicator-box.svg) | <img src="icons/slider-indicator-box-hover.svg" width="96" height="96" alt="Slider box, hover"><br>[`slider-indicator-box-hover.svg`](icons/slider-indicator-box-hover.svg) | <img src="icons/slider-indicator-box-active.svg" width="96" height="96" alt="Slider box, active"><br>[`slider-indicator-box-active.svg`](icons/slider-indicator-box-active.svg) | <img src="icons/slider-indicator-box-disabled.svg" width="96" height="96" alt="Slider box, disabled"><br>[`slider-indicator-box-disabled.svg`](icons/slider-indicator-box-disabled.svg) | 32 × 32 |
 
 ### Spinner
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/spinner.svg" width="48" height="48" alt="Spinner"> | [`spinner.svg`](icons/spinner.svg) | 16 × 16 |
+| <img src="icons/spinner.svg" width="96" height="96" alt="Spinner"> | [`spinner.svg`](icons/spinner.svg) | 32 × 32 |
 
 The spinner is animated with SMIL and rotates once every 1.05 s.
 
@@ -125,22 +126,22 @@ The spinner is animated with SMIL and rotates once every 1.05 s.
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/folder.svg" width="48" height="48" alt="Folder"> | [`folder.svg`](icons/folder.svg) | 16 × 16 |
-| <img src="icons/folder-open.svg" width="48" height="48" alt="Open folder"> | [`folder-open.svg`](icons/folder-open.svg) | 16 × 16 |
-| <img src="icons/folder-download.svg" width="48" height="48" alt="Download folder"> | [`folder-download.svg`](icons/folder-download.svg) | 16 × 16 |
-| <img src="icons/control-panel.svg" width="48" height="48" alt="Control Panel"> | [`control-panel.svg`](icons/control-panel.svg) | 16 × 16 |
+| <img src="icons/folder.svg" width="96" height="96" alt="Folder"> | [`folder.svg`](icons/folder.svg) | 32 × 32 |
+| <img src="icons/folder-open.svg" width="96" height="96" alt="Open folder"> | [`folder-open.svg`](icons/folder-open.svg) | 32 × 32 |
+| <img src="icons/folder-download.svg" width="96" height="96" alt="Download folder"> | [`folder-download.svg`](icons/folder-download.svg) | 32 × 32 |
+| <img src="icons/control-panel.svg" width="96" height="96" alt="Control Panel"> | [`control-panel.svg`](icons/control-panel.svg) | 32 × 32 |
 
 ### Toolbar icons
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/sidebar.svg" width="48" height="48" alt="Sidebar"> | [`sidebar.svg`](icons/sidebar.svg) | 16 × 16 |
-| <img src="icons/sliders.svg" width="48" height="48" alt="Sliders"> | [`sliders.svg`](icons/sliders.svg) | 16 × 16 |
-| <img src="icons/back-forward.svg" width="48" height="48" alt="Back and forward"> | [`back-forward.svg`](icons/back-forward.svg) | 16 × 16 |
-| <img src="icons/pipette.svg" width="48" height="48" alt="Pipette"> | [`pipette.svg`](icons/pipette.svg) | 16 × 16 |
-| <img src="icons/rainbow.svg" width="48" height="48" alt="Rainbow"> | [`rainbow.svg`](icons/rainbow.svg) | 16 × 16 |
-| <img src="icons/eye.svg" width="48" height="48" alt="Eye"> | [`eye.svg`](icons/eye.svg) | 16 × 16 |
-| <img src="icons/palette.svg" width="48" height="48" alt="Palette"> | [`palette.svg`](icons/palette.svg) | 16 × 16 |
+| <img src="icons/sidebar.svg" width="96" height="96" alt="Sidebar"> | [`sidebar.svg`](icons/sidebar.svg) | 32 × 32 |
+| <img src="icons/sliders.svg" width="96" height="96" alt="Sliders"> | [`sliders.svg`](icons/sliders.svg) | 32 × 32 |
+| <img src="icons/back-forward.svg" width="96" height="96" alt="Back and forward"> | [`back-forward.svg`](icons/back-forward.svg) | 32 × 32 |
+| <img src="icons/pipette.svg" width="96" height="96" alt="Pipette"> | [`pipette.svg`](icons/pipette.svg) | 32 × 32 |
+| <img src="icons/rainbow.svg" width="96" height="96" alt="Rainbow"> | [`rainbow.svg`](icons/rainbow.svg) | 32 × 32 |
+| <img src="icons/eye.svg" width="96" height="96" alt="Eye"> | [`eye.svg`](icons/eye.svg) | 32 × 32 |
+| <img src="icons/palette.svg" width="96" height="96" alt="Palette"> | [`palette.svg`](icons/palette.svg) | 32 × 32 |
 
 ## Credits
 
