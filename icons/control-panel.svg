@@ -1,54 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
   <defs>
-    <linearGradient id="control-panel-bezel" gradientUnits="userSpaceOnUse" x1="2" y1="7" x2="46" y2="40">
+    <linearGradient id="control-panel-bezel" gradientUnits="userSpaceOnUse" x1="3" y1="7" x2="45" y2="41">
       <stop offset="0" stop-color="#8cc8f2"/>
       <stop offset="1" stop-color="#2c74c0"/>
     </linearGradient>
-    <linearGradient id="control-panel-screen" gradientUnits="userSpaceOnUse" x1="3" y1="8" x2="45" y2="39">
+    <linearGradient id="control-panel-screen" gradientUnits="userSpaceOnUse" x1="4" y1="8" x2="44" y2="40">
       <stop offset="0" stop-color="#6fb6ea"/>
       <stop offset="0.6" stop-color="#4b97d9"/>
       <stop offset="1" stop-color="#2f78c4"/>
     </linearGradient>
-    <linearGradient id="control-panel-gloss" gradientUnits="userSpaceOnUse" x1="0" y1="8" x2="0" y2="24">
+    <linearGradient id="control-panel-gloss" gradientUnits="userSpaceOnUse" x1="0" y1="8" x2="0" y2="26">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="control-panel-slider" gradientUnits="userSpaceOnUse" x1="25" y1="0" x2="43" y2="0">
-      <stop offset="0" stop-color="#e6f5ff"/>
-      <stop offset="0.6" stop-color="#5fb4f0"/>
-      <stop offset="1" stop-color="#2b78d0"/>
+    <linearGradient id="control-panel-track" gradientUnits="userSpaceOnUse" x1="0" y1="-2" x2="0" y2="2">
+      <stop offset="0" stop-color="#174f94"/>
+      <stop offset="1" stop-color="#2b75c8"/>
     </linearGradient>
-    <linearGradient id="control-panel-wedge" gradientUnits="userSpaceOnUse" x1="14" y1="12" x2="20" y2="19">
-      <stop offset="0" stop-color="#ffc977"/>
-      <stop offset="1" stop-color="#f08d2a"/>
+    <linearGradient id="control-panel-value" gradientUnits="userSpaceOnUse" x1="10" y1="0" x2="38" y2="0">
+      <stop offset="0" stop-color="#eef9ff"/>
+      <stop offset="1" stop-color="#5cb8f2"/>
     </linearGradient>
-    <radialGradient id="control-panel-dome" gradientUnits="userSpaceOnUse" cx="21" cy="38" r="13">
+    <linearGradient id="control-panel-thumb" gradientUnits="userSpaceOnUse" x1="0" y1="-3.5" x2="0" y2="3.5">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.45" stop-color="#d5d8dc"/>
-      <stop offset="1" stop-color="#7d8288"/>
-    </radialGradient>
-    <filter id="control-panel-blur" x="-50%" y="-100%" width="200%" height="300%">
+      <stop offset="0.5" stop-color="#f1f6fb"/>
+      <stop offset="0.55" stop-color="#dbe7f3"/>
+      <stop offset="1" stop-color="#c6d8eb"/>
+    </linearGradient>
+    <filter id="control-panel-blur" x="-20%" y="-100%" width="140%" height="300%">
       <feGaussianBlur stdDeviation="0.8"/>
     </filter>
   </defs>
-  <rect x="2" y="7" width="44" height="33" rx="2.2" fill="url(#control-panel-bezel)" stroke="#2866a8" stroke-width="0.5"/>
-  <rect x="3.2" y="8.2" width="41.6" height="30.6" rx="1.4" fill="url(#control-panel-screen)"/>
-  <path d="M3.2 9.6Q3.2 8.2 4.6 8.2H43.4Q44.8 8.2 44.8 9.6V20Q24 26 3.2 22Z" fill="url(#control-panel-gloss)"/>
-  <circle cx="13" cy="19" r="6" stroke="#e2f3ff" stroke-width="1.4"/>
-  <path d="M13 19V13A6 6 0 0 1 19 19Z" fill="url(#control-panel-wedge)" stroke="#fff3df" stroke-width="0.4" stroke-linejoin="round"/>
-  <g stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.8">
-    <rect x="24.5" y="13.5" width="18.5" height="3" rx="1.5" fill="url(#control-panel-slider)"/>
-    <rect x="24.5" y="18.5" width="18.5" height="3" rx="1.5" fill="url(#control-panel-slider)"/>
-    <rect x="24.5" y="23.5" width="18.5" height="3" rx="1.5" fill="url(#control-panel-slider)"/>
+  <rect x="5" y="39.6" width="38" height="3" rx="1.5" fill="#000000" opacity="0.25" filter="url(#control-panel-blur)"/>
+  <rect x="3" y="7" width="42" height="34" rx="2.2" fill="url(#control-panel-bezel)" stroke="#2866a8" stroke-width="0.5"/>
+  <rect x="4.2" y="8.2" width="39.6" height="31.6" rx="1.4" fill="url(#control-panel-screen)"/>
+  <path d="M4.2 9.6Q4.2 8.2 5.6 8.2H42.4Q43.8 8.2 43.8 9.6V21Q24 27 4.2 23Z" fill="url(#control-panel-gloss)"/>
+  <g transform="translate(0 15.5)">
+    <rect x="10" y="-2" width="28" height="4" rx="2" fill="url(#control-panel-track)" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.8"/>
+    <rect x="10.25" y="-1.75" width="21" height="3.5" rx="1.75" fill="url(#control-panel-value)"/>
+    <rect x="29.4" y="-3.5" width="3.2" height="7" rx="1" fill="url(#control-panel-thumb)" stroke="#245d9e" stroke-width="0.4"/>
   </g>
-  <g fill="#ffffff">
-    <rect x="35" y="13.3" width="1.6" height="3.4" rx="0.5"/>
-    <rect x="30" y="18.3" width="1.6" height="3.4" rx="0.5"/>
-    <rect x="38" y="23.3" width="1.6" height="3.4" rx="0.5"/>
+  <g transform="translate(0 24)">
+    <rect x="10" y="-2" width="28" height="4" rx="2" fill="url(#control-panel-track)" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.8"/>
+    <rect x="10.25" y="-1.75" width="9" height="3.5" rx="1.75" fill="url(#control-panel-value)"/>
+    <rect x="17.4" y="-3.5" width="3.2" height="7" rx="1" fill="url(#control-panel-thumb)" stroke="#245d9e" stroke-width="0.4"/>
   </g>
-  <circle cx="8" cy="31" r="1.2" fill="#6ae6ff" stroke="#ffffff" stroke-width="0.4"/>
-  <circle cx="11.6" cy="31" r="1.2" fill="#6ae6ff" stroke="#ffffff" stroke-width="0.4"/>
-  <circle cx="15.2" cy="31" r="1.2" fill="#ffa52f" stroke="#ffffff" stroke-width="0.4"/>
-  <ellipse cx="24.5" cy="45.4" rx="11" ry="1.8" fill="#000000" opacity="0.3" filter="url(#control-panel-blur)"/>
-  <path d="M14.5 44.4C14.5 38.6 18.6 35.4 24 35.4C29.4 35.4 33.5 38.6 33.5 44.4C33.5 45.6 29.2 46.4 24 46.4C18.8 46.4 14.5 45.6 14.5 44.4Z" fill="url(#control-panel-dome)" stroke="#6f747a" stroke-width="0.4"/>
+  <g transform="translate(0 32.5)">
+    <rect x="10" y="-2" width="28" height="4" rx="2" fill="url(#control-panel-track)" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.8"/>
+    <rect x="10.25" y="-1.75" width="15" height="3.5" rx="1.75" fill="url(#control-panel-value)"/>
+    <rect x="23.4" y="-3.5" width="3.2" height="7" rx="1" fill="url(#control-panel-thumb)" stroke="#245d9e" stroke-width="0.4"/>
+  </g>
 </svg>
