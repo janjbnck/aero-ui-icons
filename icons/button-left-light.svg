@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-6 -4 16 16" fill="none">
+  <defs>
+    <linearGradient id="button-left-light-fill" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#bbbbbb"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <polygon points="4 0 4 8 0 4" fill="url(#button-left-light-fill)"/>
+</svg>
