@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6" fill="none">
   <defs>
-    <linearGradient id="minimize-fill" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="5">
+    <linearGradient id="minimize-fill" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="6">
       <stop offset="0" stop-color="#ffffff"/>
       <stop offset="0.45" stop-color="#f0f0f0"/>
       <stop offset="1" stop-color="#d8d8d8"/>
     </linearGradient>
   </defs>
-  <path d="M0 0H12V5H0Z" fill="#535666" fill-rule="evenodd"/>
-  <path d="M1 1H11V4H1Z" fill="url(#minimize-fill)" fill-rule="evenodd"/>
+  <path d="M0 0H12V6H0Z" fill="#535666" fill-rule="evenodd"/>
+  <path d="M1 1H11V5H1Z" fill="url(#minimize-fill)" fill-rule="evenodd"/>
 </svg>

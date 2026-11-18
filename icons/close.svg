@@ -6,8 +6,8 @@
       <stop offset="1" stop-color="#d8d8d8"/>
     </linearGradient>
     <clipPath id="close-shape">
-      <path d="M0 0H4L5.5 2 7 0H11L7.5 5 11 10H7L5.5 8 4 10H0L3.5 5Z"/>
+      <path d="M0 0H4L6 2 8 0H12L8.5 5 12 10H8L6 8 4 10H0L3.5 5Z"/>
     </clipPath>
   </defs>
-  <path d="M0 0H4L5.5 2 7 0H11L7.5 5 11 10H7L5.5 8 4 10H0L3.5 5Z" fill="url(#close-fill)" stroke="#535666" stroke-width="2" clip-path="url(#close-shape)"/>
+  <path d="M0 0H4L6 2 8 0H12L8.5 5 12 10H8L6 8 4 10H0L3.5 5Z" fill="url(#close-fill)" stroke="#535666" stroke-width="2" clip-path="url(#close-shape)"/>
 </svg>

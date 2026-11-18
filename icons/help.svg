@@ -6,8 +6,10 @@
       <stop offset="1" stop-color="#d8d8d8"/>
     </linearGradient>
   </defs>
-  <path d="M2 4.1C2 1.9 6 1.7 6 3.9 6 5.4 4 5.5 4 6.9" stroke="#535666" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M2 4.1C2 1.9 6 1.7 6 3.9 6 5.4 4 5.5 4 6.9" stroke="url(#help-fill)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M4 10.2v0" stroke="#535666" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M4 10.2v0" stroke="url(#help-fill)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="matrix(1.0478 0 0 1.0478 -0.191 -0.573)">
+    <path d="M2 4.1C2 1.9 6 1.7 6 3.9 6 5.4 4 5.5 4 6.9" stroke="#535666" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2 4.1C2 1.9 6 1.7 6 3.9 6 5.4 4 5.5 4 6.9" stroke="url(#help-fill)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4 10.2v0" stroke="#535666" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4 10.2v0" stroke="url(#help-fill)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>

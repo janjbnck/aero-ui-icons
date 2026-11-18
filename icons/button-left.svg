@@ -5,5 +5,5 @@
       <stop offset="1" stop-color="#aaaaaa"/>
     </linearGradient>
   </defs>
-  <polygon points="4 0 4 7 0 3.5" fill="url(#button-left-fill)"/>
+  <polygon points="4 0 4 8 0 4" fill="url(#button-left-fill)"/>
 </svg>
