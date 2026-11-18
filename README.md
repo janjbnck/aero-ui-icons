@@ -1,6 +1,6 @@
 # Aero UI Icons
 
-SVG icons in the style of the Windows 7 Aero interface: window controls, scroll buttons, arrows, a clipboard symbol, dropdown arrows, slider thumbs and a loading spinner.
+SVG icons in the style of the Windows 7 Aero interface: window controls, scroll buttons, arrows, a clipboard symbol, dropdown arrows, slider thumbs, a loading spinner and folders.
 
 ## Installation
 
@@ -42,7 +42,7 @@ The class names are the file names with an `aero-` prefix, so `slider-indicator-
 
 ## Icons
 
-The previews are scaled up 3×, except for the arrows and symbols. The size column shows the actual size of each SVG.
+The previews are scaled up 3×, except for the arrows, symbols and shell icons. The size column shows the actual size of each SVG.
 
 ### Window controls
 
@@ -104,6 +104,14 @@ The symbols match the arrows and are white as well.
 | <img src="icons/spinner.svg" width="64" height="64" alt="Spinner"> | [`spinner.svg`](icons/spinner.svg) | 32 × 32 |
 
 The spinner is animated with SMIL and rotates once every 1.05 s.
+
+### Shell icons
+
+| Preview | File | Size |
+| :-: | --- | --- |
+| <img src="icons/folder.svg" width="48" height="48" alt="Folder"> | [`folder.svg`](icons/folder.svg) | 48 × 48 |
+| <img src="icons/folder-open.svg" width="48" height="48" alt="Open folder"> | [`folder-open.svg`](icons/folder-open.svg) | 48 × 48 |
+| <img src="icons/folder-download.svg" width="48" height="48" alt="Download folder"> | [`folder-download.svg`](icons/folder-download.svg) | 48 × 48 |
 
 ## Credits
 
