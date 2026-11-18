@@ -48,29 +48,29 @@ The previews are scaled up 3×, except for the arrows and symbols. The size colu
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/minimize.svg" width="36" height="15" alt="Minimize"> | [`minimize.svg`](icons/minimize.svg) | 12 × 5 |
+| <img src="icons/minimize.svg" width="36" height="18" alt="Minimize"> | [`minimize.svg`](icons/minimize.svg) | 12 × 6 |
 | <img src="icons/maximize.svg" width="36" height="30" alt="Maximize"> | [`maximize.svg`](icons/maximize.svg) | 12 × 10 |
 | <img src="icons/restore.svg" width="36" height="36" alt="Restore"> | [`restore.svg`](icons/restore.svg) | 12 × 12 |
-| <img src="icons/close.svg" width="33" height="30" alt="Close"> | [`close.svg`](icons/close.svg) | 11 × 10 |
-| <img src="icons/help.svg" width="23" height="34" alt="Help"> | [`help.svg`](icons/help.svg) | 7.6 × 11.5 |
+| <img src="icons/close.svg" width="36" height="30" alt="Close"> | [`close.svg`](icons/close.svg) | 12 × 10 |
+| <img src="icons/help.svg" width="24" height="36" alt="Help"> | [`help.svg`](icons/help.svg) | 8 × 12 |
 
 ### Scroll buttons
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/button-up.svg" width="21" height="12" alt="Up"> | [`button-up.svg`](icons/button-up.svg) | 7 × 4 |
-| <img src="icons/button-down.svg" width="21" height="12" alt="Down"> | [`button-down.svg`](icons/button-down.svg) | 7 × 4 |
-| <img src="icons/button-left.svg" width="12" height="21" alt="Left"> | [`button-left.svg`](icons/button-left.svg) | 4 × 7 |
-| <img src="icons/button-right.svg" width="12" height="21" alt="Right"> | [`button-right.svg`](icons/button-right.svg) | 4 × 7 |
+| <img src="icons/button-up.svg" width="24" height="12" alt="Up"> | [`button-up.svg`](icons/button-up.svg) | 8 × 4 |
+| <img src="icons/button-down.svg" width="24" height="12" alt="Down"> | [`button-down.svg`](icons/button-down.svg) | 8 × 4 |
+| <img src="icons/button-left.svg" width="12" height="24" alt="Left"> | [`button-left.svg`](icons/button-left.svg) | 4 × 8 |
+| <img src="icons/button-right.svg" width="12" height="24" alt="Right"> | [`button-right.svg`](icons/button-right.svg) | 4 × 8 |
 
 ### Arrows
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/arrow-up.svg" width="49" height="51" alt="Arrow up"> | [`arrow-up.svg`](icons/arrow-up.svg) | 49 × 51 |
-| <img src="icons/arrow-down.svg" width="49" height="51" alt="Arrow down"> | [`arrow-down.svg`](icons/arrow-down.svg) | 49 × 51 |
-| <img src="icons/arrow-left.svg" width="51" height="49" alt="Arrow left"> | [`arrow-left.svg`](icons/arrow-left.svg) | 51 × 49 |
-| <img src="icons/arrow-right.svg" width="51" height="49" alt="Arrow right"> | [`arrow-right.svg`](icons/arrow-right.svg) | 51 × 49 |
+| <img src="icons/arrow-up.svg" width="50" height="52" alt="Arrow up"> | [`arrow-up.svg`](icons/arrow-up.svg) | 50 × 52 |
+| <img src="icons/arrow-down.svg" width="50" height="52" alt="Arrow down"> | [`arrow-down.svg`](icons/arrow-down.svg) | 50 × 52 |
+| <img src="icons/arrow-left.svg" width="52" height="50" alt="Arrow left"> | [`arrow-left.svg`](icons/arrow-left.svg) | 52 × 50 |
+| <img src="icons/arrow-right.svg" width="52" height="50" alt="Arrow right"> | [`arrow-right.svg`](icons/arrow-right.svg) | 52 × 50 |
 
 The arrows are white, so they're meant for dark or colored backgrounds.
 
@@ -78,7 +78,7 @@ The arrows are white, so they're meant for dark or colored backgrounds.
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/clipboard.svg" width="45" height="51" alt="Clipboard"> | [`clipboard.svg`](icons/clipboard.svg) | 45 × 51 |
+| <img src="icons/clipboard.svg" width="46" height="52" alt="Clipboard"> | [`clipboard.svg`](icons/clipboard.svg) | 46 × 52 |
 
 The symbols match the arrows and are white as well.
 
@@ -86,8 +86,8 @@ The symbols match the arrows and are white as well.
 
 | Preview | File | Size |
 | :-: | --- | --- |
-| <img src="icons/dropdown-arrow.svg" width="21" height="12" alt="Dropdown arrow"> | [`dropdown-arrow.svg`](icons/dropdown-arrow.svg) | 7 × 4 |
-| <img src="icons/dropdown-arrow-disabled.svg" width="21" height="12" alt="Dropdown arrow, disabled"> | [`dropdown-arrow-disabled.svg`](icons/dropdown-arrow-disabled.svg) | 7 × 4 |
+| <img src="icons/dropdown-arrow.svg" width="24" height="12" alt="Dropdown arrow"> | [`dropdown-arrow.svg`](icons/dropdown-arrow.svg) | 8 × 4 |
+| <img src="icons/dropdown-arrow-disabled.svg" width="24" height="12" alt="Dropdown arrow, disabled"> | [`dropdown-arrow-disabled.svg`](icons/dropdown-arrow-disabled.svg) | 8 × 4 |
 | <img src="icons/search.svg" width="42" height="42" alt="Search"> | [`search.svg`](icons/search.svg) | 14 × 14 |
 
 ### Slider thumbs
