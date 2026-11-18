@@ -103,6 +103,7 @@ The symbols match the arrows and are white as well.
 | Preview | File | Size |
 | :-: | --- | --- |
 | <img src="icons/dropdown-arrow.svg" width="96" height="96" alt="Dropdown arrow"> | [`dropdown-arrow.svg`](icons/dropdown-arrow.svg) | 32 × 32 |
+| <img src="icons/dropdown-arrow-light.svg" width="96" height="96" alt="Dropdown arrow, light"> | [`dropdown-arrow-light.svg`](icons/dropdown-arrow-light.svg) | 32 × 32 |
 | <img src="icons/dropdown-arrow-disabled.svg" width="96" height="96" alt="Dropdown arrow, disabled"> | [`dropdown-arrow-disabled.svg`](icons/dropdown-arrow-disabled.svg) | 32 × 32 |
 | <img src="icons/search.svg" width="96" height="96" alt="Search"> | [`search.svg`](icons/search.svg) | 32 × 32 |
 
