@@ -1,6 +1,6 @@
 # Aero UI Icons
 
-SVG icons in the style of the Windows 7 Aero interface: window controls, scroll buttons, arrows, a clipboard symbol, dropdown arrows, slider thumbs, a loading spinner, folders, a Control Panel icon and toolbar icons.
+SVG icons in the style of the Windows 7 Aero interface: window controls, scroll buttons, arrows, symbolic arrows, a clipboard symbol, dropdown arrows, slider thumbs, a loading spinner, folders, a Control Panel icon and toolbar icons.
 
 ## Installation
 
@@ -62,6 +62,21 @@ All icons are 16 × 16 and the previews are scaled up 3×.
 | <img src="icons/button-down.svg" width="48" height="48" alt="Down"> | [`button-down.svg`](icons/button-down.svg) | 16 × 16 |
 | <img src="icons/button-left.svg" width="48" height="48" alt="Left"> | [`button-left.svg`](icons/button-left.svg) | 16 × 16 |
 | <img src="icons/button-right.svg" width="48" height="48" alt="Right"> | [`button-right.svg`](icons/button-right.svg) | 16 × 16 |
+
+### Symbolic arrows
+
+| Preview | File | Size |
+| :-: | --- | --- |
+| <img src="icons/arrow-symbolic-up.svg" width="48" height="48" alt="Symbolic arrow up"> | [`arrow-symbolic-up.svg`](icons/arrow-symbolic-up.svg) | 16 × 16 |
+| <img src="icons/arrow-symbolic-up-right.svg" width="48" height="48" alt="Symbolic arrow up right"> | [`arrow-symbolic-up-right.svg`](icons/arrow-symbolic-up-right.svg) | 16 × 16 |
+| <img src="icons/arrow-symbolic-right.svg" width="48" height="48" alt="Symbolic arrow right"> | [`arrow-symbolic-right.svg`](icons/arrow-symbolic-right.svg) | 16 × 16 |
+| <img src="icons/arrow-symbolic-down-right.svg" width="48" height="48" alt="Symbolic arrow down right"> | [`arrow-symbolic-down-right.svg`](icons/arrow-symbolic-down-right.svg) | 16 × 16 |
+| <img src="icons/arrow-symbolic-down.svg" width="48" height="48" alt="Symbolic arrow down"> | [`arrow-symbolic-down.svg`](icons/arrow-symbolic-down.svg) | 16 × 16 |
+| <img src="icons/arrow-symbolic-down-left.svg" width="48" height="48" alt="Symbolic arrow down left"> | [`arrow-symbolic-down-left.svg`](icons/arrow-symbolic-down-left.svg) | 16 × 16 |
+| <img src="icons/arrow-symbolic-left.svg" width="48" height="48" alt="Symbolic arrow left"> | [`arrow-symbolic-left.svg`](icons/arrow-symbolic-left.svg) | 16 × 16 |
+| <img src="icons/arrow-symbolic-up-left.svg" width="48" height="48" alt="Symbolic arrow up left"> | [`arrow-symbolic-up-left.svg`](icons/arrow-symbolic-up-left.svg) | 16 × 16 |
+
+The symbolic arrows use the same gray gradient as the scroll buttons.
 
 ### Arrows
 
