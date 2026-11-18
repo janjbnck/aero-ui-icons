@@ -9,7 +9,7 @@
       <stop offset="0.6" stop-color="#f1f6fb"/>
       <stop offset="1" stop-color="#cbdbea"/>
     </linearGradient>
-    <filter id="rainbow-blur" x="-20%" y="-100%" width="140%" height="300%">
+    <filter id="rainbow-blur" color-interpolation-filters="sRGB" x="-20%" y="-100%" width="140%" height="300%">
       <feGaussianBlur stdDeviation="0.8"/>
     </filter>
     <path id="rainbow-cloud-shape" d="M-7.5 5Q-9.5 5 -9.5 3Q-9.5 0.3 -6.5 0.2Q-6.5 -3 -3.5 -3.2Q-2 -6.5 1.5 -5.8Q5 -5.2 4.8 -1.8Q8.8 -2.2 9.3 1.4Q9.6 5 6.5 5Z"/>

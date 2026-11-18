@@ -29,10 +29,10 @@
     <clipPath id="spinner-ring">
       <path d="M16 0a16 16 0 1 1 0 32 16 16 0 1 1 0-32ZM16 6.33a9.67 9.67 0 1 0 0 19.34 9.67 9.67 0 1 0 0-19.34Z" clip-rule="evenodd"/>
     </clipPath>
-    <filter id="spinner-glow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="spinner-glow" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2.4"/>
     </filter>
-    <filter id="spinner-glint" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="spinner-glint" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="1"/>
     </filter>
   </defs>
