@@ -120,6 +120,7 @@ The spinner is animated with SMIL and rotates once every 1.05 s.
 | :-: | --- | --- |
 | <img src="icons/sidebar.svg" width="48" height="48" alt="Sidebar"> | [`sidebar.svg`](icons/sidebar.svg) | 48 × 48 |
 | <img src="icons/sliders.svg" width="48" height="48" alt="Sliders"> | [`sliders.svg`](icons/sliders.svg) | 48 × 48 |
+| <img src="icons/back-forward.svg" width="48" height="48" alt="Back and forward"> | [`back-forward.svg`](icons/back-forward.svg) | 48 × 48 |
 
 ## Credits
 
